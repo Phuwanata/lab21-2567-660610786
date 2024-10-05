@@ -71,7 +71,7 @@ export default function Home() {
     }
     setLoadingLogin(false);
   };
-
+ 
   return (
     <Stack>
       {/* all courses section */}
