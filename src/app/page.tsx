@@ -13,8 +13,8 @@ import {
   Title,
 } from "@mantine/core";
 import axios from "axios";
-import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   // All courses state
@@ -71,7 +71,7 @@ export default function Home() {
     }
     setLoadingLogin(false);
   };
- 
+
   return (
     <Stack>
       {/* all courses section */}
